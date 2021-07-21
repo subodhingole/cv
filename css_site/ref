@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>fester's fspace</title>
+    <link rel="stylesheet" href="css_site/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Qahiri&display=swap" rel="stylesheet">
+  </head>
+  <body style = "background-color:#595260">
+    <div class="top-container">
+      <img class="goku" src="images\goku.png" height="20%" width="10%" alt="goku"></img>
+      <h1 >I'm fester.</h1>
+      <p> a <span class="pro">pro</span>grammer</p>
+      <img class="mountain" style="margin-left:300px" src="images\mountain.png" alt="image"></img>
+      <img  class="akatsuki" src="images\akatsuki.png" alt="image"  height="10%" width="10%""></img>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+body{
+  margin : 0px;
+  text-align: center;
+
+}
+h1{
+  margin-top : 0px;
+  font-family: 'Indie Flower', cursive;
+  padding-top: 100px;
+}
+.top_container{
+  background-color: #7C83FD;
+  position: relative;
+
+}
+
+.pro{
+  text-decoration: underline;
+  text-decoration-style:
+
+}
+
+.akatsuki{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.goku{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.mountain{
+  positon : absolute;
+  margin : 0px auto;
+}
