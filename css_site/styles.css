@@ -2,22 +2,94 @@ body{
   margin: 0;
   text-align:center;
   font-family: 'Varela Round', sans-serif;
+  color: #40514e;
+}
+
+hr{
+  border: dotted;
+  color: #eaf6f6;
+  width: 60px;
+  height: 5px;
+  border-bottom: none;
+  margin: 50px auto;
+
 }
 
 h1{
-  margin-top: 0;
-  width: 15%;
   margin: 0 auto 0 auto;
   font-family: 'Yomogi', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2{
+  color: #66bfbf;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+h3{
+  color: #66bfbf;
+}
+
+p{
+  line-height: 2;
+}
+
+#about-me{
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+#gaming{
+  margin-bottom: 75px;
+}
+
+#codeskill{
+  margin-top: 100px;
 }
 
 .top-container{
   background-color: #e4f9f5;
   position: relative;
-  padding-top:100px;
+  padding-top:200px;
   padding-bottom: 190px;
 }
 
+.middle-container{
+  padding: 100px auto;
+}
+
+.skill-row{
+  width:50% ;
+  text-align:left;
+  margin: 200px auto;
+
+}
+
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.boy{
+  width: 15%;
+  margin: 30px auto 0px auto;
+}
+
+.chess-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pac-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
 
 .pro{
   text-decoration: underline;
@@ -26,14 +98,14 @@ h1{
 
 .akatsuki{
   position: absolute;
-  top: 250px;
+  top: 550px;
   left: 250px;
 }
 
 .topcloud{
   position: absolute;
   right : 280px;
-  top :50px;
+  top :150px;
 }
 
 .girl{
